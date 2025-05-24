@@ -19,7 +19,7 @@
         h1 {
             color: #2c3e50;
             text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
-            border-bottom: 2px solid #3498db;
+            border-bottom: 2px solid #890ad3;
         }
         .photo {
             width: 200px;
@@ -37,7 +37,7 @@
         }
         button {
             padding: 10px 20px;
-            background-color: #3498db;
+            background-color: #8a06e2;
             color: white;
             border: none;
             cursor: pointer;
@@ -45,14 +45,14 @@
             margin: 5px;
         }
         button:hover {
-            background-color: #2980b9;
+            background-color: #b613df;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1 id="fullName">Иван Иванов</h1>
-        <img src="photo.jpg" alt="Фото" class="photo">
+        <h1 id="fullName">Videev Anton</h1>
+        <img src="C:\Users\anton\Desktop\Study\3 КУРС\ОСПО\photo\шалуйшай.jpg" alt="Фото" class="photo">
         <input type="text" id="newLastName" placeholder="Новая фамилия">
         <button onclick="changeLastName()">Изменить фамилию</button>
         <button onclick="changeRandomColor()">Случайный фон</button>
@@ -61,7 +61,7 @@
     <script>
         function changeLastName() {
             const newLastName = document.getElementById("newLastName").value;
-            document.getElementById("fullName").textContent = `Иван ${newLastName}`;
+            document.getElementById("fullName").textContent = `Адептус Астартес ${newLastName}`;
         }
 
         function changeRandomColor() {
